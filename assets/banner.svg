@@ -285,7 +285,7 @@
 @keyframes glare {
   0% { opacity: 1; animation-timing-function: cubic-bezier(0.2, 0, 0, 1); }
   11.93182% { opacity: 0; }
-  93.18182% { opacity: 0; animation-timing-function: cubic-bezier(0.2, 0, 0, 1); }
+  93.18182% { opacity: 0; animation-timing-function: cubic-bezier(1, 0, 0.8, 1); }
   100% { opacity: 1; }
 }
 @media (prefers-reduced-motion: reduce) {
